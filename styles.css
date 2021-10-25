@@ -49,11 +49,24 @@ nav li {
   letter-spacing: 1px;
   color: white;
   cursor: pointer;
+  transition: 0.5s;
+}
+nav li:hover {
+  color: black;
 }
 
 nav a {
   text-decoration: none;
   color: white;
+  transition: 0.5s;
+}
+nav a:hover {
+  opacity: 60%;
+  color: black;
+}
+
+.navLi i {
+  margin-left: 5px;
 }
 
 .slogan {
@@ -75,6 +88,11 @@ nav a {
   padding: 1em 2em;
   font-weight: 500;
   cursor: pointer;
+  transition: 0.5s;
+}
+.slogan a:hover {
+  background-color: #36535b;
+  color: white;
 }
 
 /* PICTURE SECTION */
@@ -104,6 +122,13 @@ nav a {
   color: white;
   padding: 1em 2em;
   line-height: 50px;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.news a:hover {
+  background-color: #36535b;
+  color: white;
 }
 
 .picDiv {
@@ -117,6 +142,12 @@ nav a {
   width: 400px;
   box-shadow: 3px 3px 3px 3px lightgray;
   margin-bottom: 1em;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.picDiv img:hover {
+  opacity: 50%;
 }
 
 /* CONTENT DIV */
@@ -178,6 +209,12 @@ nav a {
   border-radius: 50%;
   margin: 0.8em;
   box-shadow: 3px 3px 3px 3px lightgray;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.categoryDiv img:hover {
+  opacity: 50%;
 }
 
 .imgCateDiv {
@@ -205,8 +242,14 @@ nav a {
   color: white;
   padding: 1em 3em;
   letter-spacing: 1px;
+  transition: 0.5s;
+  cursor: pointer;
 }
 
+.onepicSection a:hover {
+  background-color: #36535b;
+  color: white;
+}
 .oidImg img {
   width: 100%;
 }
@@ -246,6 +289,7 @@ nav a {
   background-color: black;
   color: white;
   letter-spacing: 1px;
+  cursor: pointer;
 }
 .emailSect a i {
   margin-left: 8px;
@@ -282,6 +326,11 @@ footer h3 {
   padding: 0 1.5em;
   margin: 2em 0;
   letter-spacing: 1px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.footerDiv li:hover {
+  opacity: 50%;
 }
 
 footer img {
