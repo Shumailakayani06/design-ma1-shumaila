@@ -267,7 +267,7 @@ nav a:hover {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: center;
   background-color: #57616d;
   padding: 3em;
   border-bottom: 2px solid white;
@@ -278,6 +278,10 @@ nav a:hover {
   font-size: 1.8em;
   max-width: 500px;
   letter-spacing: 1px;
+}
+
+.emailSect {
+  margin-left: 1em;
 }
 
 .emailSect input {
