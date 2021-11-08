@@ -59,6 +59,8 @@ nav a {
   text-decoration: none;
   color: white;
   transition: 0.5s;
+  font-family: "Mohave", sans-serif;
+  letter-spacing: 3px;
 }
 nav a:hover {
   opacity: 60%;
@@ -81,6 +83,8 @@ nav a:hover {
   font-size: 3em;
   font-weight: 300;
   margin-bottom: 1em;
+  font-family: "Mohave", sans-serif;
+  letter-spacing: 3px;
 }
 
 .slogan a {
@@ -109,7 +113,8 @@ nav a:hover {
 .news h2 {
   font-weight: 600;
   font-size: 2em;
-  letter-spacing: 1px;
+  letter-spacing: 3px;
+  font-family: "Mohave", sans-serif;
 }
 
 .news p {
@@ -171,8 +176,9 @@ nav a:hover {
 .contentDiv h2 {
   font-size: 2em;
   font-weight: 500;
-  letter-spacing: 1px;
+  letter-spacing: 3px;
   margin-bottom: 2em;
+  font-family: "Mohave", sans-serif;
 }
 .contentDiv p {
   max-width: 500px;
@@ -196,6 +202,8 @@ nav a:hover {
   font-size: 2em;
   margin-bottom: 1em;
   margin-left: 1.5em;
+  font-family: "Mohave", sans-serif;
+  letter-spacing: 3px;
 }
 
 .categoryDiv {
@@ -234,6 +242,8 @@ nav a:hover {
   font-size: 2em;
   font-weight: 600;
   margin: 2em;
+  font-family: "Mohave", sans-serif;
+  letter-spacing: 3px;
 }
 .onepicSection a {
   margin: 2em;
@@ -300,6 +310,79 @@ nav a:hover {
   font-size: 20px;
 }
 
+/*PRODUCTS PAGE */
+
+.headingP {
+  letter-spacing: 1px;
+  color: #36535b;
+  background-color: #e0dad8;
+  width: 100%;
+  padding: 2em;
+}
+
+.headingP h1 {
+  font-family: "Mohave", sans-serif;
+  letter-spacing: 4px;
+}
+.imgDiv {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 1em 0;
+
+  box-shadow: 3px 3px 5px gray;
+}
+.imgDiv img {
+  width: 400px;
+  box-shadow: 3px 3px 5px gray;
+  opacity: 95%;
+  cursor: pointer;
+}
+.imgs {
+  margin: 5em 0;
+  transition: 0.5s;
+}
+.imgDiv img:hover {
+  opacity: 60%;
+}
+.imgs h2 {
+  color: #36535b;
+  font-family: "Mohave", sans-serif;
+  padding: 1em;
+  letter-spacing: 3px;
+}
+.imgs p {
+  max-width: 400px;
+  letter-spacing: 1px;
+  font-size: 18px;
+  padding: 0 1.2em;
+}
+.imgs .price {
+  font-weight: 600;
+  margin-top: 1em;
+  font-size: 18px;
+}
+.imgs span {
+  font-weight: 600;
+  font-size: 12px;
+}
+
+.imgs i {
+  color: rgb(243, 204, 29);
+}
+.imgs .grey {
+  color: rgb(161, 159, 159);
+}
+
+.activ {
+  text-decoration: underline;
+}
+
+.figmaIcon img {
+  width: 40px;
+}
+
 /* FOOTER SECTION */
 
 footer {
@@ -308,9 +391,10 @@ footer {
 
 footer h3 {
   font-size: 2.5em;
-  letter-spacing: 1px;
+  letter-spacing: 4px;
   margin: 2em;
   font-weight: 500;
+  font-family: "Mohave", sans-serif;
 }
 
 .footerDiv {
